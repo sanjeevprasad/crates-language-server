@@ -1,0 +1,11 @@
+[[language]]
+name = "cargo_toml"
+scope = "Cargo.toml"
+file-types = ["Cargo.toml"]
+roots = ["Cargo.toml"]
+comment-token = "#"
+language-servers = [ "crate-lsp"]
+
+[language-server.crate-lsp]
+command = "./target/debug/crate-lsp"
+args = ["--stdio"]
