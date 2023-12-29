@@ -7,5 +7,6 @@ comment-token = "#"
 language-servers = [ "crate-lsp"]
 
 [language-server.crate-lsp]
-command = "./target/debug/crate-lsp"
+command = "crate-lsp"
+# command = "./target/debug/crate-lsp"
 args = ["--stdio"]
